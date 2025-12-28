@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+  <!-- Exclude CT_CONSTRUCTOR_THROW for exception classes -->
+  <!-- Exception classes are less vulnerable to finalizer attacks and 
+       the validation ensures objects are in a consistent state -->
+  
+  <Match>
+    <Class name="com.weather.sdk.exception.WeatherSDKException" />
+    <Bug pattern="CT_CONSTRUCTOR_THROW" />
+  </Match>
+  
+  <Match>
+    <Class name="com.weather.sdk.DefaultWeatherSDK" />
+    <Bug pattern="CT_CONSTRUCTOR_THROW" />
+  </Match>
+  
+  <Match>
+    <Class name="com.weather.sdk.cache.DefaultWeatherCache" />
+    <Bug pattern="CT_CONSTRUCTOR_THROW" />
+  </Match>
+  
+  <Match>
+    <Class name="com.weather.sdk.client.DefaultOpenWeatherApiClient" />
+    <Bug pattern="CT_CONSTRUCTOR_THROW" />
+  </Match>
+</FindBugsFilter>

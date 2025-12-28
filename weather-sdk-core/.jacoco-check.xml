@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jacoco:check xmlns:jacoco="http://www.jacoco.org/jacoco-trunk" always="true">
+  <rules>
+    <rule>
+      <element>CLASS</element>
+      <limits>
+        <limit>
+          <counter>INSTRUCTION</counter>
+          <value>COVEREDRATIO</value>
+          <minimum>0.40</minimum>
+        </limit>
+      </limits>
+    </rule>
+  </rules>
+</jacoco:check>

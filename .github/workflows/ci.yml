@@ -1,0 +1,16 @@
+name: CI (Out of Scope)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  ci-out-of-scope:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display CI Status
+        run: |
+          echo "# CI is out of scope for this prototype"
+          echo ""
+          echo "This is a prototype project and CI/CD pipeline is not implemented."
+          echo "CI functionality is intentionally excluded to keep the prototype lightweight."

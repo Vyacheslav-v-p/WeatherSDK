@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.weather.sdk"},{"l":"com.weather.sdk.cache"},{"l":"com.weather.sdk.client"},{"l":"com.weather.sdk.config"},{"l":"com.weather.sdk.exception"},{"l":"com.weather.sdk.model"}];updateSearchResults();

@@ -1,0 +1,6 @@
+com.weather.sdk
+com.weather.sdk.cache
+com.weather.sdk.client
+com.weather.sdk.config
+com.weather.sdk.exception
+com.weather.sdk.model

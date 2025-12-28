@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.weather</groupId>
+    <artifactId>weather-sdk</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>weather-sdk-ai-tools</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Weather SDK AI Tools</name>
+  <description>Optional AI tool calling support module for Weather SDK</description>
+
+  <dependencies>
+    <!-- Core SDK dependency -->
+    <dependency>
+      <groupId>com.weather</groupId>
+      <artifactId>weather-sdk-core</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <!-- AI tools dependencies will be added in Phase 5 -->
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+
